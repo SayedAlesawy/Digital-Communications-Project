@@ -20,7 +20,7 @@ Random Generator set size = 2
 Phase offset (rad) = 0
 ```
 
-![High level view of the modulation/demodulation scheme](figures/schematics/BPSK.png) 
+![High level view of the modulation/demodulation scheme](./figures/schematics/BPSK.png) 
 
 
 ### - Pre-Modulation Scatter Plots
