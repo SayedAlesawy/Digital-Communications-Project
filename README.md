@@ -26,22 +26,22 @@ Phase offset (rad) = 0
 ### - Pre-Modulation Scatter Plots
 * Parameter Set 0:
 
-    ![Parameters set 0](/figures/scatter_plots/before/BPSK1.png) 
+    ![Parameters set 0](/figures/scatter_plots/before/BPSK1.PNG) 
 * Parameter Set 1:
 
-    ![Parameters set 1](/figures/scatter_plots/before/BPSK2.png) 
+    ![Parameters set 1](/figures/scatter_plots/before/BPSK2.PNG) 
 ### - Post-Modulation Scatter Plots
 * Parameter Set 0: 
 
-    ![Parameters set 0](/figures/scatter_plots/after/BPSK1.png) 
+    ![Parameters set 0](/figures/scatter_plots/after/BPSK1.PNG) 
 * Parameter Set 1:
 
-    ![Parameters set 1](/figures/scatter_plots/after/BPSK2.png) 
+    ![Parameters set 1](/figures/scatter_plots/after/BPSK2.PNG) 
 ### - BER Diagram
 * Simulation 0 (green) is using parameter set 0.
 * Simulation 1 (red) is using parameter set 1.
 
-    ![BER Diagram](/figures/ber_diagrams/BPSK.png)
+    ![BER Diagram](/figures/ber_diagrams/BPSK.PNG)
 
 ___
 ## **Quadrature Phase-Shift Keying Modulation (QPSK)**
@@ -52,26 +52,26 @@ QPSK is a form of Phase Shift Keying in which two bits are modulated at once, se
 Random Generator set size = 4
 Phase offset (rad) = pi/4
 ``` 
-![High level view of the modulation/demodulation scheme](/figures/schematics/QPSK.png) 
+![High level view of the modulation/demodulation scheme](/figures/schematics/QPSK.PNG) 
 ### - Pre-Modulation Scatter Plots
 * Parameter Set 0:
 
-    ![Parameters set 0](/figures/scatter_plots/before/QPSK1.png) 
+    ![Parameters set 0](/figures/scatter_plots/before/QPSK1.PNG) 
 * Parameter Set 1:
 
-    ![Parameters set 1](figures/scatter_plots/before/QPSK2.png) 
+    ![Parameters set 1](figures/scatter_plots/before/QPSK2.PNG) 
 ### - Post-Modulation Scatter Plots
 * Parameter Set 0: 
 
-    ![Parameters set 0](/figures/scatter_plots/after/QPSK1.png) 
+    ![Parameters set 0](/figures/scatter_plots/after/QPSK1.PNG) 
 * Parameter Set 1:
 
-    ![Parameters set 1](/figures/scatter_plots/after/QPSK2.png) 
+    ![Parameters set 1](/figures/scatter_plots/after/QPSK2.PNG) 
 ### - BER Diagram
 * Simulation 0 (green) is using parameter set 0.
 * Simulation 1 (red) is using parameter set 1.
 
-    ![BER Diagram](/figures/ber_diagrams/QPSK.png)
+    ![BER Diagram](/figures/ber_diagrams/QPSK.PNG)
 
 ___
 ## **Frequency Shift Keying (FSK)**
@@ -84,26 +84,26 @@ M-ary number = 2
 Frequency separation = 6 Hz
 Samples per symbol = 17
 ``` 
-![High level view of the modulation/demodulation scheme](/figures/schematics/FSK.png) 
+![High level view of the modulation/demodulation scheme](/figures/schematics/FSK.PNG) 
 ### - Pre-Modulation Scatter Plots
 * Parameter Set 0:
 
-    ![Parameters set 0](/figures/scatter_plots/before/FSK1.png) 
+    ![Parameters set 0](/figures/scatter_plots/before/FSK1.PNG) 
 * Parameter Set 1:
 
-    ![Parameters set 1](/figures/scatter_plots/before/FSK2.png) 
+    ![Parameters set 1](/figures/scatter_plots/before/FSK2.PNG) 
 ### - Post-Modulation Scatter Plots
 * Parameter Set 0: 
 
-    ![Parameters set 0](/figures/scatter_plots/after/FSK1.png) 
+    ![Parameters set 0](/figures/scatter_plots/after/FSK1.PNG) 
 * Parameter Set 1:
 
-    ![Parameters set 1](/figures/scatter_plots/after/FSK2.png) 
+    ![Parameters set 1](/figures/scatter_plots/after/FSK2.PNG) 
 ### - BER Diagram
 * Simulation 0 (green) is using parameter set 0.
 * Simulation 1 (red) is using parameter set 1.
 
-    ![BER Diagram](/figures/ber_diagrams/FSK.png)
+    ![BER Diagram](/figures/ber_diagrams/FSK.PNG)
 
 ___
 ## **Quadrature Amplitude Modulation (QAM)**
@@ -122,48 +122,48 @@ QAM is a signal in which two carriers shifted in phase by 90 degrees (i.e. sin a
 ``` 
 * **QAM 16**
 
-    ![High level view of the modulation/demodulation scheme](/figures/schematics/16QAM.png)
+    ![High level view of the modulation/demodulation scheme](/figures/schematics/16QAM.PNG)
 
 * **QAM 64**
 
-    ![High level view of the modulation/demodulation scheme](/figures/schematics/64QAM.png) 
+    ![High level view of the modulation/demodulation scheme](/figures/schematics/64QAM.PNG) 
 ### - Pre-Modulation Scatter Plots
 * **QAM 16**:
     * Parameter Set 0
 
-        ![Parameters set 0](/figures/scatter_plots/before/16QAM1.png)
+        ![Parameters set 0](/figures/scatter_plots/before/16QAM1.PNG)
     * Parameter Set 1
 
-        ![Parameters set 1](/figures/scatter_plots/before/16QAM2.png)
+        ![Parameters set 1](/figures/scatter_plots/before/16QAM2.PNG)
 * **QAM 64**
     * Parameter Set 0
 
-        ![Parameters set 0](/figures/scatter_plots/before/64QAM1.png)
+        ![Parameters set 0](/figures/scatter_plots/before/64QAM1.PNG)
     * Parameter Set 1
 
-        ![Parameters set 1](/figures/scatter_plots/before/64QAM2.png)
+        ![Parameters set 1](/figures/scatter_plots/before/64QAM2.PNG)
 ### - Post-Modulation Scatter Plots
 * **QAM 16**:
     * Parameter Set 0
 
-        ![Parameters set 0](/figures/scatter_plots/after/16QAM1.png)
+        ![Parameters set 0](/figures/scatter_plots/after/16QAM1.PNG)
     * Parameter Set 1
 
-        ![Parameters set 1](/figures/scatter_plots/after/16QAM2.png)
+        ![Parameters set 1](/figures/scatter_plots/after/16QAM2.PNG)
 * **QAM 64**
     * Parameter Set 0
 
-        ![Parameters set 0](/figures/scatter_plots/after/64QAM1.png)
+        ![Parameters set 0](/figures/scatter_plots/after/64QAM1.PNG)
     * Parameter Set 1
 
-        ![Parameters set 1](/figures/scatter_plots/after/64QAM2.png)
+        ![Parameters set 1](/figures/scatter_plots/after/64QAM2.PNG)
 ### - BER Diagram
 * Simulation 0 (green) is using parameter set 0.
 * Simulation 1 (red) is using parameter set 1.
 
     * **QAM 16**
 
-        ![BER Diagram](/figures/ber_diagrams/16QAM.png)
+        ![BER Diagram](/figures/ber_diagrams/16QAM.PNG)
     * **QAM 64**
 
-        ![BER Diagram](/figures/ber_diagrams/64QAM.png)
+        ![BER Diagram](/figures/ber_diagrams/64QAM.PNG)
