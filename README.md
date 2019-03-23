@@ -16,8 +16,8 @@ BPSK is a two phase modulation scheme, where the 0’s and 1’s in a binary mes
 
 ### - Schematic
 ```
-Random Generator set size = 2
-Phase offset (rad) = 0
+- Random Generator set size = 2
+- Phase offset (rad) = 0
 ```
 
 ![High level view of the modulation/demodulation scheme](/figures/schematics/BPSK.PNG)
@@ -49,8 +49,8 @@ ___
 QPSK is a form of Phase Shift Keying in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0, 90, 180, 270). QPSK allows the signal to carry twice as much information as ordinary PSK using the same bandwidth.
 ### - Schematic
 ```
-Random Generator set size = 4
-Phase offset (rad) = pi/4
+- Random Generator set size = 4
+- Phase offset (rad) = pi/4
 ``` 
 ![High level view of the modulation/demodulation scheme](/figures/schematics/QPSK.PNG) 
 ### - Pre-Modulation Scatter Plots
@@ -79,10 +79,10 @@ ___
 FSK is the frequency modulation system in which digital information is transmitted through the discrete frequency change of a carrier wave. The simplest FSK is binary FSK (BFSK).
 ### - Schematic
 ```
-Random Generator set size = 2
-M-ary number = 2
-Frequency separation = 6 Hz
-Samples per symbol = 17
+- Random Generator set size = 2
+- M-ary number = 2
+- Frequency separation = 6 Hz
+- Samples per symbol = 17
 ``` 
 ![High level view of the modulation/demodulation scheme](/figures/schematics/FSK.PNG) 
 ### - Pre-Modulation Scatter Plots
