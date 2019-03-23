@@ -23,14 +23,14 @@ BPSK is a two phase modulation scheme, where the 0’s and 1’s in a binary mes
 ![High level view of the modulation/demodulation scheme](/figures/schematics/BPSK.PNG)
 
 
-### - Pre-Modulation Scatter Plots
+### - Transmitter Scatter Plots
 * Parameter Set 0:
 
     ![Parameters set 0](/figures/scatter_plots/before/BPSK1.PNG) 
 * Parameter Set 1:
 
     ![Parameters set 1](/figures/scatter_plots/before/BPSK2.PNG) 
-### - Post-Modulation Scatter Plots
+### - Receiver Scatter Plots
 * Parameter Set 0: 
 
     ![Parameters set 0](/figures/scatter_plots/after/BPSK1.PNG) 
@@ -53,14 +53,14 @@ QPSK is a form of Phase Shift Keying in which two bits are modulated at once, se
 - Phase offset (rad) = pi/4
 ``` 
 ![High level view of the modulation/demodulation scheme](/figures/schematics/QPSK.PNG) 
-### - Pre-Modulation Scatter Plots
+### - Transmitter Scatter Plots
 * Parameter Set 0:
 
     ![Parameters set 0](/figures/scatter_plots/before/QPSK1.PNG) 
 * Parameter Set 1:
 
     ![Parameters set 1](figures/scatter_plots/before/QPSK2.PNG) 
-### - Post-Modulation Scatter Plots
+### - Receiver Scatter Plots
 * Parameter Set 0: 
 
     ![Parameters set 0](/figures/scatter_plots/after/QPSK1.PNG) 
@@ -85,14 +85,14 @@ FSK is the frequency modulation system in which digital information is transmitt
 - Samples per symbol = 17
 ``` 
 ![High level view of the modulation/demodulation scheme](/figures/schematics/FSK.PNG) 
-### - Pre-Modulation Scatter Plots
+### - Transmitter Scatter Plots
 * Parameter Set 0:
 
     ![Parameters set 0](/figures/scatter_plots/before/FSK1.PNG) 
 * Parameter Set 1:
 
     ![Parameters set 1](/figures/scatter_plots/before/FSK2.PNG) 
-### - Post-Modulation Scatter Plots
+### - Receiver Scatter Plots
 * Parameter Set 0: 
 
     ![Parameters set 0](/figures/scatter_plots/after/FSK1.PNG) 
@@ -127,7 +127,7 @@ QAM is a signal in which two carriers shifted in phase by 90 degrees (i.e. sin a
 * **QAM 64**
 
     ![High level view of the modulation/demodulation scheme](/figures/schematics/64QAM.PNG) 
-### - Pre-Modulation Scatter Plots
+### - Transmitter Scatter Plots
 * **QAM 16**:
     * Parameter Set 0
 
@@ -142,7 +142,7 @@ QAM is a signal in which two carriers shifted in phase by 90 degrees (i.e. sin a
     * Parameter Set 1
 
         ![Parameters set 1](/figures/scatter_plots/before/64QAM2.PNG)
-### - Post-Modulation Scatter Plots
+### - Receiver Scatter Plots
 * **QAM 16**:
     * Parameter Set 0
 
