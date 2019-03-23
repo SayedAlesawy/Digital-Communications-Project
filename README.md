@@ -1,5 +1,5 @@
 # **Digital Communications Project**
-Simulating the performance of different modulation schemes, such as, [**BPSK**](#binary-phase-shift-keying-modulation-bpsk), [**QPSK**](#quadrature-phase-shift-keying-modulation-qpsk), [**FSK**](#frequency-shift-keying-fsk), [**QAM**](#frequency-shift-keying-fsk) in an Additive White Gaussian Noise, AWGN environment.
+Simulating the performance of different modulation schemes, such as, [**BPSK**](#binary-phase-shift-keying-modulation-bpsk), [**QPSK**](#quadrature-phase-shift-keying-modulation-qpsk), [**FSK**](#frequency-shift-keying-fsk), [**QAM**](#quadrature-amplitude-modulation-qam) in an Additive White Gaussian Noise, AWGN environment.
 
 ## Simulation Environment Settings
 - The simulation is done using 2 different parameter sets defined below.
