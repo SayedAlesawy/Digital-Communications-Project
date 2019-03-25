@@ -9,6 +9,9 @@ Simulating the performance of different modulation schemes, such as, [**BPSK**](
 - The simulation period is set to 100. 
 - Integer Random Generator seed is set to Auto.
 - Noise initial random seed is set to 67.
+- All scatter plots are produced at a noise level of 10 dB.
+- All BER diagrams use a noise level of [-10, 10] dB.
+- The simulation period is set to 100.
 
 ## **Binary Phase-Shift Keying Modulation (BPSK)**
 ### - Definition 
