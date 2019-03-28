@@ -2,16 +2,39 @@
 Simulating the performance of different modulation schemes, such as, [**BPSK**](#binary-phase-shift-keying-modulation-bpsk), [**QPSK**](#quadrature-phase-shift-keying-modulation-qpsk), [**FSK**](#frequency-shift-keying-fsk), [**QAM**](#quadrature-amplitude-modulation-qam) in an Additive White Gaussian Noise, AWGN environment.
 
 ## Simulation Environment Settings
-- The simulation is done using 2 different parameter sets defined below.
+- The simulation is done using 2 different parameter sets for the Random Input Generator defined below.
     * **Set 0**: Sample Time = 0.1 s, Samples Per Frame = 100
     * **Set 1**: Sample Time = 1 s, Samples Per Frame = 100
 - The noise level is set to 10 dB.
 - The simulation period is set to 100. 
 - Integer Random Generator seed is set to Auto.
 - Noise initial random seed is set to 67.
-- All scatter plots are produced at a noise level of 10 dB.
+- All scatter plots are produced at a noise level (Eb/No) of 10 dB.
 - All BER diagrams use a noise level of [-10, 10] dB.
 - The simulation period is set to 100.
+
+## Reproducing Scatter Plots
+To reproduce the scatter plots, kindly do the following: 
+- Set the simulation parameters as mentioned in the [**Simulation Environment Settings**](#simulation-environment-settings), it will most likely be already set, except for the Random Input Generator parameter sets.
+- Double click the AWGN channel, and set the noise level (Eb/No) to 10 dB.
+- Set the simulation time to 100 and click run. 
+
+## Reproducing BER Diagrams
+To reproduce the BER diagrams, kindly do the following:
+- Set the simulation parameters as mentioned in the [**Simulation Environment Settings**](#simulation-environment-settings), it will most likely be already set, except for the Random Input Generator parameter sets. 
+- Double click the AWGN channel, and set the noise level (Eb/No) to variable called ```EbNo```.
+- From Matlab's command line, run the BER diagram tool using the command ```bertool```.
+- From the ```Theoretical``` tab in the BER tool window, set the following:
+   * Eb/No range to -10:10.
+   * Channel type to AWGN.
+   * The respective Modulation type and order. 
+- Click ```Run``` to plot the theoretical exact BER diagram.
+- From the ```Monte Carlo``` tab in the BER diagram tool, set the following:
+   * Eb/No range to -10:10.
+   * Simulink model to the path of the respective file for each modulation scheme.
+   * Set the BER vairable name to ```BER```.
+   * Set the simulation limits as desired. Left as default (Number of erros = 100, number of bits = 1e8).
+- Click ```Run``` to plot the Monte Carlo BER diagram.
 
 ## **Binary Phase-Shift Keying Modulation (BPSK)**
 ### - Definition 
