@@ -1,4 +1,37 @@
-# **Digital Communications Project**
+# Digital Communications Project
+
+## Contents
+- [**Introduction**](#introduction)
+- [**Simulation Environment Settings**](#simulation-environment-settings)
+- [**Reproducing Scatter Plots**](#reproducing-scatter-plots)
+- [**Reproducing BER Diagrams**](#reproducing-ber-diagrams)
+- [**Binary Phase-Shift Keying Modulation (BPSK)**](#binary-phase-shift-keying-modulation-bpsk)
+   * [Definition](#--definition)
+   * [Schematics](#--schematic)
+   * [Transmitter Scatter Plots](#--transmitter-scatter-plots)
+   * [Receiver Scatter Plots](#--receiver-scatter-plots)
+   * [BER Diagram](#--ber-diagram)
+- [**Quadrature Phase-Shift Keying Modulation (QPSK)**](#quadrature-phase-shift-keying-modulation-qpsk)
+   * [Definition](#--definition-1)
+   * [Schematics](#--schematic-1)
+   * [Transmitter Scatter Plots](#--transmitter-scatter-plots-1)
+   * [Receiver Scatter Plots](#--receiver-scatter-plots-1)
+   * [BER Diagram](#--ber-diagram-1)
+- [**Frequency Shift Keying (FSK)**](#frequency-shift-keying-fsk)
+   * [Definition](#--definition-2)
+   * [Schematics](#--schematic-2)
+   * [Transmitter Scatter Plots](#--transmitter-scatter-plots-2)
+   * [Receiver Scatter Plots](#--receiver-scatter-plots-2)
+   * [BER Diagram](#--ber-diagram-2)
+- [**Quadrature Amplitude Modulation (QAM)**](#quadrature-amplitude-modulation-qam)
+   * [Definition](#--definition-3)
+   * [Types](#--types)
+   * [Schematics](#--schematic-3)
+   * [Transmitter Scatter Plots](#--transmitter-scatter-plots-3)
+   * [Receiver Scatter Plots](#--receiver-scatter-plots-3)
+   * [BER Diagram](#--ber-diagram-3)
+
+## **Introduction**
 Simulating the performance of different modulation schemes, such as, [**BPSK**](#binary-phase-shift-keying-modulation-bpsk), [**QPSK**](#quadrature-phase-shift-keying-modulation-qpsk), [**FSK**](#frequency-shift-keying-fsk), [**QAM**](#quadrature-amplitude-modulation-qam) in an Additive White Gaussian Noise, AWGN environment.
 
 ## Simulation Environment Settings
